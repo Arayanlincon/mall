@@ -5,6 +5,8 @@ spring:
     multipart:
       enabled: true #开启文件上传
       max-file-size: 10MB #限制文件上传大小为10M
+server:
+  port: 8093
 
 mybatis:
   mapper-locations:
